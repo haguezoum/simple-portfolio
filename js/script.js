@@ -100,7 +100,7 @@ let bulletsOption = document.querySelectorAll('.settings-box .navigation-bullets
       if(optionBG == true){
          intervalBG = setInterval(()=>{
            let randomNumber = Math.floor(Math.random() * arrImg.length);
-           landingPage.style.backgroundImage='url("img/'+arrImg[randomNumber]+'")';
+           landingPage.style.backgroundImage='url(arrImg[randomNumber])';
         },1000);
         
       }  
