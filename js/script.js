@@ -5,7 +5,9 @@ let bulletOpsStorage = localStorage.getItem('displayBullets');
 
 let landingPage = document.querySelector('.landing-page');
 //let arrImg = ["surf01.jpg","surf02.jpg","surf03.jpg","surf05.jpg","surf06.jpg"];
-let arrImg =["bg1.jpg","bg2.jpg","bg5.jpg","bg4.jpg","bg5.jpg"];
+// let arrImg =["bg1.jpg","bg2.jpg","bg5.jpg","bg4.jpg","bg5.jpg"];
+let arrImg =["https://images.app.goo.gl/xpnC3LTmqLrPWgZM7","https://images.app.goo.gl/xpnC3LTmqLrPWgZM7","https://images.app.goo.gl/xpnC3LTmqLrPWgZM7"];
+https://images.app.goo.gl/xpnC3LTmqLrPWgZM7
 let optionBG = true;
 let intervalBG;
 let navBullets    = document.querySelector('.nav-bullets');
