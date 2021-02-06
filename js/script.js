@@ -46,8 +46,7 @@ let bulletsOption = document.querySelectorAll('.settings-box .navigation-bullets
 //          navBullets.style.display = 'none';
 //          document.querySelector('.navigation-bullets .no').classList.add('active');
 //       }
-// }
-//end local storage
+// }//end local storage
 
 
 
