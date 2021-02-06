@@ -12,41 +12,42 @@ let navBullets    = document.querySelector('.nav-bullets');
 let bulletsOption = document.querySelectorAll('.settings-box .navigation-bullets span');
 
 //---------------------
-if(localStorage != null){
-   //---------------main color --------
-   document.documentElement.style.setProperty('--main-color',mainColor);
-   document.querySelectorAll('.color-list li').forEach(element=>{
-      element.classList.remove('active');
-      if(element.dataset.color==mainColor){
-        element.classList.add('active');
-      }
-   });
-   //---------background---------------
-   document.querySelectorAll('.random-background span').forEach(element =>{
-     element.classList.remove('active');
-   });
+// if(localStorage != null){
+//    //---------------main color --------
+//    document.documentElement.style.setProperty('--main-color',mainColor);
+//    document.querySelectorAll('.color-list li').forEach(element=>{
+//       element.classList.remove('active');
+//       if(element.dataset.color==mainColor){
+//         element.classList.add('active');
+//       }
+//    });
+//    //---------background---------------
+//    document.querySelectorAll('.random-background span').forEach(element =>{
+//      element.classList.remove('active');
+//    });
 
-      if(backgroundOption == 'true'){
-         optionBG = true;
-         document.querySelector('.random-background .yes').classList.add('active');
-      }
-      if(backgroundOption == 'false'){
-         optionBG = false;
-         document.querySelector('.random-background .no').classList.add('active');
-      }
-   //---------bullets------------
-   bulletsOption.forEach(span=>{
-            span.classList.remove('active');
-   });
+//       if(backgroundOption == 'true'){
+//          optionBG = true;
+//          document.querySelector('.random-background .yes').classList.add('active');
+//       }
+//       if(backgroundOption == 'false'){
+//          optionBG = false;
+//          document.querySelector('.random-background .no').classList.add('active');
+//       }
+//    //---------bullets------------
+//    bulletsOption.forEach(span=>{
+//             span.classList.remove('active');
+//    });
     
-      if(bulletOpsStorage === 'block'){
-         navBullets.style.display = 'block';
-         document.querySelector('.navigation-bullets .yes').classList.add('active');
-      }else{
-         navBullets.style.display = 'none';
-         document.querySelector('.navigation-bullets .no').classList.add('active');
-      }
-}//end local storage
+//       if(bulletOpsStorage === 'block'){
+//          navBullets.style.display = 'block';
+//          document.querySelector('.navigation-bullets .yes').classList.add('active');
+//       }else{
+//          navBullets.style.display = 'none';
+//          document.querySelector('.navigation-bullets .no').classList.add('active');
+//       }
+// }
+//end local storage
 
 
 
